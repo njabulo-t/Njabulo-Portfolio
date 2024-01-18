@@ -1,0 +1,33 @@
+@media screen and (max-width:1200px) {
+    #desktop-nav{
+        display:none;
+    }
+    #hamburger-nav{
+        display: flex;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .section-info-container{
+       flex-direction: column;/* Stack content vertically on smaller screens */
+       align-items: center;
+}
+
+.about-pic{
+    order: -1; /* Moves the image above the text in the column layout */
+    margin-bottom: 20px;
+}
+}
+
+@media (max-width: 768px) {
+    .projects-content {
+      flex-direction: column;
+    }
+  
+    .card {
+      min-height: auto;
+    }
+  }
+  
+  
