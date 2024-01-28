@@ -95,6 +95,13 @@ display: inline-block;
    transition: all 0.3 ease-in-out;
 }
 
+.menu-links a:hover{
+    color:grey;
+    text-decoration: underline;
+    text-decoration-color: rgb(181, 181, 181);
+    text-underline-offset: 16px;
+}
+
 .menu-links a{
     display: block;
     padding: 10px;
