@@ -80,7 +80,7 @@ color: #333;
     justify-content: center;
     gap: 5rem;
     height: 500px;
-    padding-top:300px;
+    padding-top:250px;
 }
 
 /* section */
@@ -90,17 +90,6 @@ color: #333;
     box-sizing: border-box;
    
 }
-.github-icon {
-    width: 40px;
-    height: 40px;
-    margin-left: 30px; 
-  }
-
-  .github-icon:hover{
-    width: 45px;
-    height: 45px;
-    margin-left: 30px;
-  }
 
 .container{
     padding-top: 100px;
@@ -146,7 +135,7 @@ color: #333;
     display: flex;
     justify-content: center;
     gap: 16px;
-    margin-top: 200px;
+
 }
 
 .btn {
@@ -155,6 +144,7 @@ color: #333;
     padding: 16px;
     width: 128px;
     border-radius: 32px;
+    margin-top: 60px;
 }
 
 .btn-color-1{
@@ -173,14 +163,17 @@ color: #333;
     padding: 16px;
     width: 128px;
     border-radius: 32px;
-    border: rgb(53, 53, 53) 0.1rem solid;
+    background: rgb(53,53, 53);
+    color: white;
+
 }
 
 .primary-link:hover{
     text-decoration: none;
     cursor: pointer;
-    background: rgb(53,53, 53);
-    color: white;
+    color:rgb(53, 53, 53) ;
+    background-color: white;
+    border: rgb(53, 53, 53) 0.1rem solid;
 }
 
 .section-info-container{
@@ -277,3 +270,28 @@ line-height: 1.384615385;
     display: flex;
     gap: 10px;
 }
+footer{
+    display: block;
+    text-align: center;
+    margin-top:200px; 
+    
+  
+}
+
+
+.github-icon {
+  margin: 0 auto;
+    width: 30px;
+    height: 30px;
+    margin-left: 30px; 
+  }
+  .mail-icon{
+    width: 40px;
+    height: 40px;
+  }
+
+  .github-icon:hover{
+   color: #333;
+   
+  }
+
