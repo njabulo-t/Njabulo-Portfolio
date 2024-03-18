@@ -287,6 +287,9 @@ line-height: 1.384615385;
     text-align: center;
     margin-top: 80px ; 
 }
+hr{
+    padding-top: 100px;
+}
 
 footer{
     display: block;
