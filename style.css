@@ -79,7 +79,7 @@ color: #333;
     display: flex;
     justify-content: center;
     gap: 5rem;
-    height: 500px;
+ 
     padding-top:250px;
 }
 
@@ -90,6 +90,15 @@ color: #333;
     box-sizing: border-box;
    
 }
+
+.projects-home-text{
+    padding-top: 100px;
+    height: 400px;
+    font-weight: 100;
+    font-size: 28px;
+    color: #FAFAFA;
+}
+
 
 .container{
     padding-top: 100px;
@@ -119,6 +128,7 @@ color: #333;
     overflow: hidden;
 }
 
+ 
 .social-container{
     display: flex;
     justify-content: center;
@@ -137,6 +147,7 @@ color: #333;
     gap: 16px;
 
 }
+ /* btn */
 
 .btn {
     font-weight: 600;
@@ -326,3 +337,88 @@ footer h3{
     font-size: 10px;
   }
 
+
+    /* Flip cards */
+   
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+.flip-link  a{
+    text-decoration: none;   
+}
+
+.container{
+    margin-top: 200px;
+    transform-style: preserve-3d;
+    gap: 20px;
+}
+
+.container .box{
+    position: relative;
+    width: 550px;
+    height: 550px;
+    margin: 20px;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    cursor: pointer;
+}
+
+.container .box .body{
+  
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: 0.9s ease;
+}
+
+
+
+
+.container .box .body .imgContainer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+.container .box .body .imgContainer img{
+   
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container .box .body .content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    backdrop-filter: blur(10px); /* Add a blur effect to create a glass-like effect */
+    opacity: 0s; /* Reduce opacity to make it semi-transparent */
+}
+
+.container .box:hover .body{
+    transform: rotateY(180deg);
+}
+
+.container .box .body .content div{
+    transform-style: preserve-3d;
+    padding: 20px;
+}
+
+.container .box .body .content div h3{
+    letter-spacing: 1px;
+}
