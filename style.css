@@ -188,6 +188,18 @@ color: #333;
     border: rgb(53, 53, 53) 0.1rem solid;
 }
 
+.btn-outline-light {
+    transition: all 300ms ease;
+    padding: 16px;
+    width: 150px;
+    border-radius: 32px;
+}
+
+.text-content{
+    text-align: center;
+    width: 400px;
+}
+
 .section-info-container{
     display: flex;
     flex-direction: row;
